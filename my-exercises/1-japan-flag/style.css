@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flag {
+    background-color: white;
+    width: 45rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flag .dot {
+    background-color: #bc002d;
+    border-radius: 100%;
+    width: 18rem;
+    height: 18rem;
+}
