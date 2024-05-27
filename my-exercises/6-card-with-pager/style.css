@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    
+    width: 16rem;
+    height: 22rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    margin: auto;
+}
+
+.card footer {
+    margin: auto auto 1rem auto;
+}
+
+footer a {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #444;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+
