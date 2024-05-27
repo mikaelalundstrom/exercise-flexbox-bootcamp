@@ -1,0 +1,76 @@
+body {
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.fibonacci {
+    display: flex;
+
+    margin: 1rem 3rem;
+    height: 5rem;
+    background-color: #fff;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.fibonacci section {
+    flex-grow: 1;
+    padding: 0.8rem;
+}
+
+.box1 {
+    background-color: #de457d;
+}
+
+.box2 {
+    background-color: #ea556e;
+}
+
+.box3 {
+    background-color: #f16861;
+}
+
+.box3 {
+    background-color: #f16861;
+}
+.fibonacci .box4 {
+    background-color: #f37d55;
+    flex-grow: 2;
+}
+
+.fibonacci .box5 {
+    background-color: #f0924c;
+    flex-grow: 3;
+}
+
+.fibonacci .box6 {
+    background-color: #eaa747;
+    flex-grow: 5;
+}
+
+.fibonacci .box7 {
+    background-color: #e1bb4a;
+    flex-grow: 8;
+}
+.fibonacci .box8 {
+    background-color: #d4cf55;
+    flex-grow: 13;
+}
+
+.fibonacci .box9 {
+    background-color: #c5e168;
+    flex-grow: 21;
+}
+
+.fibonacci .box10 {
+    background-color: #b4f381;
+    flex-grow: 34;
+}
