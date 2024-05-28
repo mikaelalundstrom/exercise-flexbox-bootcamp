@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #cccccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,29 +13,42 @@ body {
 .card {
     
     width: 16rem;
-    height: 22rem;
+    height: 24rem;
     background-color: white;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-h1 {
-    margin: auto;
+.quote {
+    margin: auto 0 0 0;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
-.card footer {
-    margin: auto auto 1rem auto;
+.quoted {
+    margin: 0 0 auto 0;
+    padding: 0;
+    color: #888;
 }
+
 
 footer a {
     width: 0.5rem;
     height: 0.5rem;
-    background-color: #444;
+    margin: 0 0.5rem;
+    background-color: #888;
     display: inline-block;
     border-radius: 100%;
+}
+
+footer a.active {
+    background-color: black;
 }
 
 
